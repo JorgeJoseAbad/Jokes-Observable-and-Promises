@@ -1,0 +1,10 @@
+<p>
+  jokes works!
+</p>
+<h3> Jokes </h3>
+    <!--<button (click)="getRandomJokeObservable()">Get Random Joke by Observable</button>-->
+    <button id="joke-btn">Get Random Joke by Observable</button>
+    <button (click)="getRandomJoke()"> Get Random Joke </button>
+    <p>{{ joke | async }} </p>
+    <!--{{ joke$ }}-->
+    <pre>{{ joke$ | async}}</pre>
